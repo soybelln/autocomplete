@@ -2649,8 +2649,8 @@ $("#city").autocomplete({
 
       if (city.indexOf(request.term.toUpperCase()) != -1) {
         return {
-          label: obj.city + ", " + obj.country, // Label for Display
-          value: obj.id // Value
+          label: obj.city + ", " + obj.country,
+          value: obj.id
         }
       } else {
         return null;
